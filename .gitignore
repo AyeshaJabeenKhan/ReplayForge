@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.pytest_cache/
+*.egg-info/
+.venv/
+venv/
+
+# ReplayForge's own saved transcripts (generated at runtime, not source)
+backend/data/
+
+# Node / Next.js
+node_modules/
+.next/
+out/
+npm-debug.log*
+
+# Env files
+.env
+.env.local
+
+# OS
+.DS_Store
+Thumbs.db
